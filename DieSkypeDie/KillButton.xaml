@@ -1,0 +1,9 @@
+﻿<Window x:Class="DieSkypeDie.KillButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KillButton" Height="25" Width="25"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" >
+    <Grid>
+        <Image Source="DSD.png" MouseUp="KillButton_MouseDown" />
+    </Grid>
+</Window>
